@@ -1,0 +1,80 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+header {
+  background-image: url("/Users/gma/Desktop/My School/step2/image/  backg.jpeg");
+  position: fixed;
+  z-index: 2;
+  width: 100%; /* Make the header span the full width of the viewport */
+  text-align: center; /* Center the content within the header */
+}
+
+header img {
+  height: 300px;
+  width: 800px;
+  margin: 0 auto; /* Center the image horizontally */
+  overflow: hidden;
+  border-color: none;
+  display: block; /* Make the image a block element for centering */
+  border-radius: none;
+}
+body{
+  background-image: url("/Users/gma/Desktop/My School/step2/image/BG2.jpeg");
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: repeat; 
+  background-color: black;
+  height: 100%;
+}
+
+img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  overflow: hidden;
+  border: none;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  text-shadow: 2px 2px black;
+  width: 100%;
+  background-color: rgba(255, 200, 0, 0.5);
+}
+
+main {
+  position: relative;
+  top: 320px;
+  height: calc(100% - 30px); /* Set the height to fill the remaining space below the header */
+  box-sizing: border-box;
+  overflow: scroll; /* You can add this if you want the main to have a scrollbar */
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 500px; /* Set the maximum width to 500px */
+  max-height: 300px; /* Set the maximum height for vertical scrolling */
+  overflow: auto; /* Enable both horizontal and vertical scrolling if needed */
+  background-color: rgba(205, 156, 33, 0.25);
+  border-collapse: collapse;
+}
+
+th {
+  width: 180px;
+  height: 50px;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+th ,td{
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
